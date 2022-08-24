@@ -64,6 +64,16 @@ Clone & Install
         pip install -r requirements.txt
         python install .
 
+    New:
+
+    Clone the repository:
+        git clone https://github.com/maharajbrahma/indic-trans.git
+
+    Change to the cloned directory:
+        cd indic-trans
+        pip install -r requirements.txt
+        python setup.py install
+
 Examples
 --------
 
