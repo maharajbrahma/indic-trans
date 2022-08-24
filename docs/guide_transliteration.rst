@@ -103,10 +103,10 @@ You can transliterate text files directly using the console shortcut ``indictran
     -h, --help          show this help message and exit
     -v, --version       show program's version number and exit
     -s, --source        select language (3 letter ISO-639 code) {hin, guj, pan,
-                        ben, mal, kan, tam, tel, ori, eng, mar, nep, bod, kok,
+                        ben, mal, kan, tam, tel, ori, eng, mar, nep, brx, kok,
                         asm, urd}
     -t, --target        select language (3 letter ISO-639 code) {hin, guj, pan,
-                        ben, mal, kan, tam, tel, ori, eng, mar, nep, bod, kok,
+                        ben, mal, kan, tam, tel, ori, eng, mar, nep, brx, kok,
                         asm, urd}
     -b, --build-lookup  build lookup to fasten transliteration
     -i, --input         <input-file>

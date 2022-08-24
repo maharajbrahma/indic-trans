@@ -2518,7 +2518,7 @@ class WX():
 
     def iscii2unicode(self, iscii):
         """Convert ISCII to Unicode"""
-        if self.lang_tag in ["hin", "mar", "nep", "bod", "kok"]:
+        if self.lang_tag in ["hin", "mar", "nep", "brx", "kok"]:
             unicode_ = self.iscii2unicode_hin(iscii)
         elif self.lang_tag == "tel":
             unicode_ = self.iscii2unicode_tel(iscii)
@@ -2600,7 +2600,7 @@ class WX():
 
     def unicode2iscii(self, unicode_):
         """Convert Unicode to ISCII"""
-        if self.lang_tag in ["hin", "mar", "nep", "bod", "kok"]:
+        if self.lang_tag in ["hin", "mar", "nep", "brx", "kok"]:
             iscii = self.unicode2iscii_hin(unicode_)
         elif self.lang_tag == "tel":
             iscii = self.unicode2iscii_tel(unicode_)

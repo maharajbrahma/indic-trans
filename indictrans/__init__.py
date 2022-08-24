@@ -17,7 +17,7 @@ __version__ = "1.0"
 
 def parse_args(args):
     languages = '''hin guj pan ben mal kan tam tel ori
-                   eng mar nep bod kok asm urd'''.split()
+                   eng mar nep brx kok asm urd'''.split()
     # help messages
     lang_help = "select language (3 letter ISO-639 code) {%s}" % (
         ', '.join(languages))

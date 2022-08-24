@@ -71,7 +71,7 @@ class Transliterator():
         source = source.lower()
         target = target.lower()
         impl = '''hin guj pan ben mal kan tam tel
-                  ori mar nep kok bod asm eng urd'''.split()
+                  ori mar nep kok brx asm eng urd'''.split()
         decoder = (decode, _get_decoder(decode))
         if source in ['eng', 'urd']:
             if target not in impl or source == target:

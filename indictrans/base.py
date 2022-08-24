@@ -49,11 +49,11 @@ class BaseTransliterator(object):
     """
 
     def __init__(self, source, target, decoder, build_lookup=False):
-        if source in ('mar', 'nep', 'kok', 'bod'):
+        if source in ('mar', 'nep', 'kok', 'brx'):
             source = 'hin'
         elif source == 'asm':
             source = 'ben'
-        if target in ('mar', 'nep', 'kok', 'bod'):
+        if target in ('mar', 'nep', 'kok', 'brx'):
             target = 'hin'
         elif target == 'asm':
             target = 'ben'
